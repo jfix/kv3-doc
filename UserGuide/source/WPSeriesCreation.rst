@@ -19,8 +19,8 @@ Enter all metadata according to the checklist below
 
 The first two metadata are there for you to know which kind of object you are creating. They have default values and cannot be modified.
 
-* **Work Type** : this value is Filled by default with the value ``Collection``
-* **Catalogue Type** : this value is Filled by default with the value ``Paper Series``
+* **Work Type** : this value is filled by default with the value ``Collection``
+* **Catalogue Type** : this value is filled by default with the value ``Paper Series``
 
 .. note:: To know more about work types and catalogue types see :doc:`BibliographicModel`
 
@@ -162,10 +162,14 @@ Click on the link and go to the series detailed page :
 
 .. image:: images/missingISSN.JPG
 
+If you need to add a thumbnail for this series, you will see a button at expression level which allows you to load the image
 
-Contact PAC Metadata to request an ISSN
+.. image:: images/addThumbnail.JPG
 
-Click on Action--> edit at manifestation (bottom right grey part) level, add the ISSN, change the status to ``published`` and add a publication date
+
+Click on Action--> edit at manifestation (bottom right grey part) level, add the ISSN, 
+
+When you attach the first working paper to the series, go to the same place (Action -->Edit at manifestation level) change the status to ``published`` and add a publication date
 
 You are all ready to go to creating the authors (see STEP2: :doc:`WPAuthors`) or :doc:`WPAddPaper2Series`
 

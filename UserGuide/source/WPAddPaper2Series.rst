@@ -1,5 +1,5 @@
-How to add a Working paper to a series
-========================================
+How to add a Working paper series using the WEB form
+====================================================
 
 
 To create a working Paper record you need to go to the series Detailed page.
