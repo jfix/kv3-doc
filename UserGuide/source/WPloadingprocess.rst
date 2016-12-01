@@ -1,8 +1,26 @@
-Loading Process for working papers
-===================================
+XML Loading Process for working papers
+======================================
 
-Introduction and Use Cases
-------------------------------------------------
+To create a working paper with an XML file you can proceed in two ways :
+
+1) From the Home page via the ``Create using files button``
+
+.. image:: images/CreatUsingFiles.JPG
+
+then select and batch load the metadata XMLs
+
+.. image:: images/XMLWPSelect.JPG
+
+
+2) From the Detailed page of the series vi ``Add Paper`` button selecting ``Using Files``
+
+
+.. image:: images/CreateNewPaper.JPG
+
+
+
+Batch loading Use Cases
+-------------------------
 
 The schema contains all the necessary metadata to create a working paper pyramid, 
 with a work one or several expression, one or several manifestations.
@@ -12,7 +30,7 @@ The Working paper is directly attached to a series via the ISSN
 
 The use cases are the following :
 
-	- creation of a "normal" working paper from an xml containing creation of a normal working paper from an xml containing the master language (plus eventually all the language versions)
+	- creation of a "normal" working paper from an xml containing the master language (plus eventually all the language versions)
 	- creation of a second language version of an existing working paper
 	- creation of a "standalone translation" working paper (not attached to the series but isTranslationOf another paper)
 
@@ -89,12 +107,12 @@ The following metadata should be mapped from the XML file
 | numberOfPages    | M     | 1    | pageNumber         |                                                             |
 +------------------+-------+------+--------------------+-------------------------------------------------------------+
 
-Use Case 1 : creation of a normal working paper from an xml containing the master language (plus eventually all the language versions)
-------------------------------------------------------------------------------------------------------------------------------------------
+Use Case 1 : creation of a normal working paper from an xml containing at least the master language
+---------------------------------------------------------------------------------------------------
 
-The XML contains all the data to create the work, plus one expression per ``version`` element
-the element ``issn`` is used to make the link with the parent Working paper series
-the element ``isTranslationOf`` is not present
+* The XML contains all the data to create the work, plus one expression per ``version`` element
+* the element ``issn`` is used to make the link with the parent Working paper series
+* the element ``isTranslationOf`` is not present
 
 The result of the loading is the whole pyramid
 

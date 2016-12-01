@@ -1,5 +1,5 @@
 Authors and affiliation management for a working paper
-----------------------------------------------------------------
+=======================================================
 
 At the moment Kappa V2 is the master database for authors. This means that all authors from Kappa V2 are migrated every night to OECD.Kappa
 
