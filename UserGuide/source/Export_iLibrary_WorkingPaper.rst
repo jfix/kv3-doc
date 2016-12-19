@@ -1,4 +1,4 @@
-Working Paper 
+Working Paper
 =============
 
 Identification
@@ -14,15 +14,15 @@ Eligibility
 An identified Kappa item can only be exported if the following conditions are met:
 
 * The item has a DOI
-* The item has a publication date 
+* The item has a publication date
 * The item has at least one manifestation of the following medium ``PDF`` (e)
 * The item has at least one of the above manifestations with any of the following statuses:
 	* ``Forthcoming`` (50) OR
 	* ``Published`` (100) AND an embargo date in the future OR
 	* ``Published`` (100) AND has an FTI OR
 	* ``Discontinued`` (200)
-* The item is the child of an eligible working paper series 
-* The item is not blocked for export 
+* The item is the child of an eligible working paper series
+* The item is not blocked for export
 
 Metadata
 ---------
@@ -38,7 +38,7 @@ Metadata
 +-----------------------+-----------+-------------+----------------------------+--------+-------------------------------------------------------------------------------+
 | country               |  specific |   0-1       |   country                  |   W    |                                                                               |
 +-----------------------+-----------+-------------+----------------------------+--------+-------------------------------------------------------------------------------+
-| subject               |  Yes      |   0-*       |   mainTheme  otherThemes   |   W    | R107 IGO Themes                                                               |
+| subject               |  Yes      |   0-*       |   mainTheme + otherTheme   |   W    | R107 IGO Themes                                                               |
 +-----------------------+-----------+-------------+----------------------------+--------+-------------------------------------------------------------------------------+
 | dc:title              |  Yes      |   1-*       |   title                    |   E    | R117 Metadata in multiple languages                                           |
 +-----------------------+-----------+-------------+----------------------------+--------+-------------------------------------------------------------------------------+
@@ -106,4 +106,3 @@ Metadata
 +-----------------------+-----------+-------------+----------------------------+--------+-------------------------------------------------------------------------------+
 | embargoDate           |  Yes      |   0-1       |   embargoDate              |   M    |   R43 Embargo/Publication date                                                |
 +-----------------------+-----------+-------------+----------------------------+--------+-------------------------------------------------------------------------------+
-
