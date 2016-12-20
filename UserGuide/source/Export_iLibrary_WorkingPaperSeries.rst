@@ -17,15 +17,17 @@ An identified Kappa item can only be only exported if all of the following condi
 * The item has at least one manifestations with any of the following availability statuses:
 	* ``Published`` (100) OR
 	* ``Discontinued`` (200)
-* The item has at least one manifestation of medium ``Online`` (online)
-* The item has at least one eligible child 
-* The item is not blocked for export 
+* The item has at least one manifestation of medium:
+	* ``Online`` (online)
+	*	that as an ISSN
+* The item has at least one eligible child
+* The item is not blocked for export
 
 Metadata
 --------
 
 +--------------------+-------------------------------------+--------+------------+---------------+------------------------------------------------------------------------+
-| iLibrary property  |   Kappa V3 property                 |  FRBR  |  Generic   | Cardinality   |   Export Rules and comments                                            | 
+| iLibrary property  |   Kappa V3 property                 |  FRBR  |  Generic   | Cardinality   |   Export Rules and comments                                            |
 +====================+=====================================+========+============+===============+========================================================================+
 | @rdf:about         |   ISSN                              |   M    |   Yes      |   1           |   ``workingpaperseries/`` + ISSN in lower case                         |
 +--------------------+-------------------------------------+--------+------------+---------------+------------------------------------------------------------------------+
